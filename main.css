@@ -12,15 +12,12 @@ body {
 }
 
 .span1, .span2, .span3 {
-	/*float: left;
-	min-height: 100px;
-	margin-right: 10px;
-	margin-bottom: 10px;*/
 	background-color: red;
 	min-height: 100px;
 	float: left;
 	margin-right: 3.33333%;         /* all spans get // origin margin-right is 10px; 10px / 300px margin-right */
 	margin-bottom: 10px;
+	position: relative;
 }
 
 .span1 {
@@ -33,4 +30,24 @@ body {
 
 .span3 {
 	width: 96.66666%;
+}
+
+img {
+	max-width: 100%;
+	float: right;
+} 
+
+.container {
+	position: relative;
+	height: 0;
+	padding-bottom: 50%;
+}
+
+.element {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: blue;
 }
