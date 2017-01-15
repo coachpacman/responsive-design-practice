@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+body {
+	width: 90%;
+	margin: auto;
+}
+
+.span1, .span2, .span3 {
+	/*float: left;
+	min-height: 100px;
+	margin-right: 10px;
+	margin-bottom: 10px;*/
+	background-color: red;
+	min-height: 100px;
+	float: left;
+	margin-right: 3.33333%;         /* all spans get // origin margin-right is 10px; 10px / 300px margin-right */
+	margin-bottom: 10px;
+}
+
+.span1 {
+	width: 30%;
+}
+
+.span2 {
+	width: 63.33333%;
+}
+
+.span3 {
+	width: 96.66666%;
+}
