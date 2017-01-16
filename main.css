@@ -63,3 +63,9 @@ iframe {
 	top: 0;
 	left: 0;
 }
+
+@media (min-width: 47em) {
+	img {
+		max-width: 50%;
+	}
+}
