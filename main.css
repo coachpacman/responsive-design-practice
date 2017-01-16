@@ -41,6 +41,10 @@ img {
 	position: relative;
 	height: 0;
 	padding-bottom: 50%;
+	margin-top: 10px;
+	min-height: 100px;
+	clear: left;
+	width: 96.7%;
 }
 
 .element {
