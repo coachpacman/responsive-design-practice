@@ -46,20 +46,8 @@ img {
 	width: 96.7%;
 }
 
-/*.container2 {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 25%;
-}*/
-
-.element /*.element2*/ {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	/*background-color: blue;*/
+.insideContainer {
+		display: none;
 }
 
 iframe {
@@ -73,5 +61,26 @@ iframe {
 @media (min-width: 47em) {
 	img {
 		max-width: 50%;
+	}
+	
+	.insideContainer {
+		display: inline;
+		position: absolute;
+		height: 0;
+		padding-bottom: 56.25%;
+		width: 100%;
+		bottom: 0;
+		right: 0;
+	}
+
+	.insideFrame {
+		position: absolute;
+		width: 50%;
+		bottom: 0;
+		right: 0;
+	}
+
+	.container2 {
+		display: none;
 	}
 }
